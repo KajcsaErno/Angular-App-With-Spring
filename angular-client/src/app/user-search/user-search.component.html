@@ -1,0 +1,17 @@
+<div id="search-component">
+  <label for="search-box">User Search:</label>
+  <input #searchBox (input)="search(searchBox.value)" id="search-box"/>
+
+  <ul class="search-result">
+    <li *ngFor="let user of users$ | async">
+      <a routerLink="/user/{{user.id}}">
+        {{user.name}}
+      </a>
+    </li>
+  </ul>
+  <ul class="text-start list-inline py-3">
+    <li class="list-inline-item">
+      <button (click)="goBack()" class="btn btn-info" type="goBack">Go back</button>
+    </li>
+  </ul>
+</div>
