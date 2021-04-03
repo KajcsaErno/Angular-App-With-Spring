@@ -1,26 +1,23 @@
-# Read Me First
+# Spring Boot - Angular Application
 
-The following was discovered as part of building this project:
+A Spring Boot backend app which communicates with Angular client which shows infromation in the browser.
 
-* The original package name 'com.example.angular-backend-app' is invalid and this project uses '
-  com.example.angularbackendapp' instead.
+### Instructions
+```
+git clone https://github.com/KajcsaErno/Angular-App-With-Spring/
+cd Angular-App-With-Spring 
+cd springboot-backend
+maven package
+mvn clean install
+mvn spring-boot:run
+```
 
-# Getting Started
+```
+cd ..
+npm install
+ng serve --open
+```
 
-### Reference Documentation
-
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.4/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.4/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.4.4/reference/htmlsingle/#boot-features-developing-web-applications)
-
-### Guides
-
-The following guides illustrate how to use some features concretely:
-
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-
+![image](https://user-images.githubusercontent.com/31850356/113484795-81534000-94aa-11eb-9191-233149dd6977.png)
+![image](https://user-images.githubusercontent.com/31850356/113484824-a647b300-94aa-11eb-99e3-5cbf204a4247.png)
+![image](https://user-images.githubusercontent.com/31850356/113484838-b069b180-94aa-11eb-8532-081e64631687.png)
