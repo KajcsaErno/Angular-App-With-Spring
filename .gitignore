@@ -8,10 +8,10 @@
 ######################
 # Node
 ######################
-/node/
-node_tmp/
-node_modules/
-npm-debug.log.*
+/angular-client/node/
+/angular-client/node_tmp/
+/angular-client/node_modules/
+/angular-client/npm-debug.log.*
 
 ######################
 # SASS
@@ -52,12 +52,12 @@ local.properties
 ######################
 # Intellij
 ######################
-.idea/
-*.iml
-*.iws
-*.ipr
-*.ids
-*.orig
+/springboot-backend/.idea/
+/springboot-backend/angular-backend-app.iml
+/springboot-backend/*.iws
+/springboot-backend/*.ipr
+/springboot-backend/*.ids
+/springboot-backend/*.orig
 
 ######################
 # Visual Studio Code
@@ -67,8 +67,8 @@ local.properties
 ######################
 # Maven
 ######################
-/log/
-/target/
+/springboot-backend/log/
+/springboot-backend/target/
 
 ######################
 # Gradle
@@ -139,3 +139,4 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+
