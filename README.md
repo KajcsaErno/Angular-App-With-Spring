@@ -14,6 +14,7 @@ mvn spring-boot:run
 
 ```
 cd ..
+cd angular-client
 npm install
 ng serve --open
 ```
